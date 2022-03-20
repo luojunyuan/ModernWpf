@@ -4238,6 +4238,8 @@ namespace ModernWpf.Controls
                 coreTitleBar.LayoutMetricsChanged -= OnTitleBarMetricsChanged;
                 coreTitleBar.IsVisibleChanged -= OnTitleBarIsVisibleChanged;
             }
+
+            InputHelper._lastTappedArgs = null;
         }
 
         void OnLoaded(object sender, RoutedEventArgs args)

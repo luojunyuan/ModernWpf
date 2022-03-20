@@ -149,6 +149,6 @@ namespace ModernWpf.Input
             SetIsPressed((UIElement)sender, false);
         }
 
-        private static TappedRoutedEventArgs _lastTappedArgs;
+        public static TappedRoutedEventArgs _lastTappedArgs;
     }
 }

@@ -10,29 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace NavigationViewSample
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// NavWindow.xaml 的交互逻辑
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class NavWindow : Window
     {
-        public MainWindow()
+        public NavWindow()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            var win = new NavWindow();
-            win.Show();
-        }
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            System.GC.Collect();
         }
     }
 }
