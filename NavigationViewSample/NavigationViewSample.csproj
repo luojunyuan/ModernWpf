@@ -8,6 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="Properties\DesignTimeResources.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\ModernWpf.Controls\ModernWpf.Controls.csproj" />
   </ItemGroup>
 

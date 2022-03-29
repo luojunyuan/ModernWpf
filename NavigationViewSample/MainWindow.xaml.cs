@@ -27,12 +27,26 @@ namespace NavigationViewSample
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            var win = new NavWindow();
-            win.Show();
+            foreach(var i in Enumerable.Range(0, 50))
+            {
+                var win = new NavWindow();
+                win.Show();
+                win.Close();
+            }
         }
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             System.GC.Collect();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            foreach (var i in Enumerable.Range(0, 50))
+            {
+                var win = new Window();
+                win.Show();
+                win.Close();
+            }
         }
     }
 }
