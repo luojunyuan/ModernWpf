@@ -12,7 +12,7 @@
     <description>Modern styles and controls for your WPF applications.</description>
     <tags>$tags$</tags>
     <dependencies>
-      <group targetFramework="ne6.0-windows10.0.18362" />
+      <group targetFramework="net6.0-windows10.0.18362" />
     </dependencies>
     <frameworkReferences>
       <group targetFramework="net6.0-windows10.0.18362">
